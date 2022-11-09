@@ -1,7 +1,8 @@
 pluginManagement {
-	repositories {
-		maven { url = uri("https://repo.spring.io/release") }
-		gradlePluginPortal()
-	}
+    repositories {
+        maven { url = uri("https://repo.spring.io/release") }
+        maven { url = uri("https://repo.spring.io/milestone") }
+        gradlePluginPortal()
+    }
 }
 rootProject.name = "native"
